@@ -6,7 +6,7 @@ import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { ThemeProvider } from './contexts/ThemeContext';
-import "./app.css"
+import "./App.css"
 import { LocalizationProvider } from './contexts/LanguageContext';
 
 const App = () => {
