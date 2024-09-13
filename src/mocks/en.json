@@ -37,7 +37,7 @@
             }
         ]
     },
-    "userProfile": {
+    "profile": {
         "sectionTitle": "Profile",
         "basicInfo": {
             "infoTitle": "Basic Information",
@@ -73,9 +73,9 @@
         "projectList": [
             {
                 "projectTitle": "Workintech",
-                "imageLink": "",
+                "imageLink": "p1.png",
                 "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "techStack": [
+                "tech": [
                     "react",
                     "redux",
                     "axios"
@@ -87,9 +87,9 @@
             },
             {
                 "projectTitle": "Random Jokes",
-                "imageLink": "",
+                "imageLink": "p2.png",
                 "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "techStack": [
+                "tech": [
                     "react",
                     "redux",
                     "axios"
@@ -101,9 +101,9 @@
             },
             {
                 "projectTitle": "Journey",
-                "imageLink": "",
+                "imageLink": "p3.png",
                 "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "techStack": [
+                "tech": [
                     "react",
                     "redux",
                     "axios"
@@ -115,9 +115,9 @@
             }
         ]
     },
-    "bottomBar": {
+    "footer": {
         "collabHeader": "Let’s work together on your next product.",
-        "email": "example@example.com",
+        "email": "tayfunsenturk8@gmail.com",
         "blog": "Personal Blog",
         "gitRepo": "Github",
         "linkedinProfile": "LinkedIn",

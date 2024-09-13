@@ -37,7 +37,7 @@
             }
         ]
     },
-    "userProfile": {
+    "profile": {
         "sectionTitle": "Profil",
         "basicInfo": {
             "infoTitle": "Temel Bilgiler",
@@ -56,7 +56,7 @@
                 },
                 {
                     "key": "Tercih Edilen Rol",
-                    "value": "Ön yüz, UI"
+                    "value": "Ön Yüz Geliştirme"
                 }
             ]
         },
@@ -73,9 +73,9 @@
         "projectList": [
             {
                 "projectTitle": "Workintech",
-                "imageLink": "",
+                "imageLink": "p1.png",
                 "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
-                "techStack": [
+                "tech": [
                     "react",
                     "redux",
                     "axios"
@@ -87,9 +87,9 @@
             },
             {
                 "projectTitle": "Random Jokes",
-                "imageLink": "",
+                "imageLink": "p2.png",
                 "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
-                "techStack": [
+                "tech": [
                     "react",
                     "redux",
                     "axios"
@@ -101,9 +101,9 @@
             },
             {
                 "projectTitle": "Journey",
-                "imageLink": "",
+                "imageLink": "p3.png",
                 "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
-                "techStack": [
+                "tech": [
                     "react",
                     "redux",
                     "axios"
@@ -115,9 +115,9 @@
             }
         ]
     },
-    "bottomBar": {
+    "footer": {
         "collabHeader": "Bir sonraki ürününüzde birlikte çalışalım.",
-        "email": "example@example.com",
+        "email": "tayfunsenturk8@gmail.com",
         "blog": "Kişisel Blog",
         "gitRepo": "Github",
         "linkedinProfile": "LinkedIn",

@@ -13,8 +13,23 @@ const Hero = () => {
   const { serverData } = useLocalization();
   const bio = serverData.bio;
 
+ const scrollToFooter = () => {
+      const footerSection = document.querySelector('#footer');
+        if (footerSection) {
+            footer.scrollIntoView({ behavior: "smooth" });
+            const emailElement = document.querySelector('.email-link');
+            if (emailElement) {
+                emailElement.classList.add('animate-flash', 'text-red-500');
+              
+                setTimeout(() => {
+                    emailElement.classList.remove('animate-flash', 'text-red-500');
+                }, 4000);
+            }
+        }
+    };
+
   return (
-    <section className="flex flex-col lg:flex-row gap-8 max-w-[85%] xl:max-w-7xl mx-auto py-10 justify-between">
+    <section className="flex flex-col lg:flex-row gap-8 max-w-[85%] xl:max-w-8xl mx-auto py-10 justify-between">
       <div className="text-left">
         <p className="mb-6 font-semibold text-purple-800 dark:text-purple-200 text-xl">————— {bio.fullName}</p>
         <h1 className=" text-gray-900 flex-nowrap font-extrabold text-4xl lg:text-7xl dark:text-gray-400">
@@ -22,7 +37,7 @@ const Hero = () => {
         </h1>
         <p className="mt-6 font-medium text-gray-400 text-lg lg:max-w-2xl">{bio.introText}</p>
         <nav className="flex flex-wrap justify-start xl:justify-between max-w-lg mt-10">
-          <button
+          <button onClick={scrollToFooter}
             className="bg-blue-900  m-2 xl:m-1 h-12 py-3 px-6 lg:pl-5 w-36 xl:w-40 border border-blue-900 text-white font-bold rounded-lg r dark:border-purple-200 dark:bg-purple-200 dark:text-slate-950"
           >
             {bio.workWithMe}

@@ -13,7 +13,7 @@ const App = () => {
   return (
     <LocalizationProvider>
     <ThemeProvider>
-      <div className="bg-white text-gray-500 dark:bg-[#242128] dark:text-gray-400">
+      <div className="bg-white text-gray-600 dark:bg-[#242128] dark:text-gray-400">
         <Navbar />
         <Hero />
         <Skills />
