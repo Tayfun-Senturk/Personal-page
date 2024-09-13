@@ -38,7 +38,7 @@ const Hero = () => {
         <p className="mt-6 font-medium text-gray-400 text-lg lg:max-w-2xl">{bio.introText}</p>
         <nav className="flex flex-wrap justify-start xl:justify-between max-w-lg mt-10">
           <button onClick={scrollToFooter}
-            className="bg-blue-900  m-2 xl:m- h-12 py-0 px-6 lg:pl-5 w-36 xl:w-40 border border-blue-900 text-white font-bold rounded-lg r dark:border-purple-200 dark:bg-purple-200 dark:text-slate-950"
+            className="bg-blue-900 m-2 pt-2.5   h-12 flex w-36 xl:w-40 border place-content-center border-blue-900 text-white font-bold rounded-lg r dark:border-purple-200 dark:bg-purple-200 dark:text-slate-950"
           >
             {bio.workWithMe}
           </button>
