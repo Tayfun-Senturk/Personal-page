@@ -5,14 +5,14 @@
         "abilities": "Yetenekler",
         "works": "Projeler",
         "lang": "ENGLISH",
-        "contactMe": "Beni işe al"
+        "contactMe": "Beraber çalışalım!"
     },
     "bio": {
         "fullName": "Tayfun",
         "tagline1": "Yaratıcı düşünür",
         "tagline2": "Minimalizm tutkunu",
         "introText": "Merhaba, ben Tayfun. Tam kapsamlı bir yazılım geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturan bir geliştirici arıyorsanız, el sıkışalım.",
-        "workWithMe": "Beni işe al",
+        "workWithMe": "Beraber çalışalım!",
         "codeRepo": "Github",
         "socialProfile": "LinkedIn",
         "socialLinks": {
