@@ -7,11 +7,13 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { ThemeProvider } from './contexts/ThemeContext';
 import "./app.css"
+import { LocalizationProvider } from './contexts/LanguageContext';
 
 const App = () => {
   return (
+    <LocalizationProvider>
     <ThemeProvider>
-      <div className="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+      <div className="bg-white text-gray-500 dark:bg-[#242128] dark:text-gray-400">
         <Navbar />
         <Hero />
         <Skills />
@@ -20,6 +22,7 @@ const App = () => {
         <Footer />
       </div>
     </ThemeProvider>
+    </LocalizationProvider>
   );
 }
 

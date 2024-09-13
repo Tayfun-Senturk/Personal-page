@@ -1,0 +1,130 @@
+{
+    "navbar": {
+        "themeDark": "DARK MODE",
+        "themeLight": "LIGHT MODE",
+        "abilities": "Skills",
+        "works": "Projects",
+        "lang": "TÜRKÇE",
+        "contactMe": "Hire me"
+    },
+    "bio": {
+        "fullName": "Tayfun",
+        "tagline1": "Creative thinker",
+        "tagline2": "Minimalism lover",
+        "introText": "Hi, I’m Tayfun. I’m a full-stack developer. If you are looking for a developer to craft solid and scalable frontend products with great user experiences, let’s shake hands.",
+        "workWithMe": "Hire me",
+        "codeRepo": "Github",
+        "socialProfile": "LinkedIn",
+        "socialLinks": {
+            "github": "https://github.com/Tayfun-Senturk",
+            "linkedin": ""
+        }
+    },
+    "competencies": {
+        "sectionTitle": "Skills",
+        "skillsList": [
+            {
+                "skillName": "Javascript",
+                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "skillName": "React.Js",
+                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "skillName": "Node.Js",
+                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        ]
+    },
+    "userProfile": {
+        "sectionTitle": "Profile",
+        "basicInfo": {
+            "infoTitle": "Basic Information",
+            "infoItems": [
+                {
+                    "key": "Date of Birth",
+                    "value": "29.07.1999"
+                },
+                {
+                    "key": "City of Residence",
+                    "value": "Bursa"
+                },
+                {
+                    "key": "Educational Background",
+                    "value": "Kocaeli University , Biomedical Engineering, 2024"
+                },
+                {
+                    "key": "Preferred Role",
+                    "value": "Frontend, UI"
+                }
+            ]
+        },
+        "selfIntro": {
+            "sectionTitle": "About Me",
+            "content": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+                "Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+            ]
+        }
+    },
+    "portfolio": {
+        "sectionTitle": "Projects",
+        "projectList": [
+            {
+                "projectTitle": "Workintech",
+                "imageLink": "",
+                "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                "techStack": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "repo": "Github",
+                "repoLink": "",
+                "siteLabel": "View Site",
+                "siteLink": ""
+            },
+            {
+                "projectTitle": "Random Jokes",
+                "imageLink": "",
+                "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                "techStack": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "repo": "Github",
+                "repoLink": "",
+                "siteLabel": "View Site",
+                "siteLink": ""
+            },
+            {
+                "projectTitle": "Journey",
+                "imageLink": "",
+                "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                "techStack": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "repo": "Github",
+                "repoLink": "",
+                "siteLabel": "View Site",
+                "siteLink": ""
+            }
+        ]
+    },
+    "bottomBar": {
+        "collabHeader": "Let’s work together on your next product.",
+        "email": "example@example.com",
+        "blog": "Personal Blog",
+        "gitRepo": "Github",
+        "linkedinProfile": "LinkedIn",
+        "links": {
+            "blogLink": "#",
+            "gitRepoLink": "https://github.com/Tayfun-Senturk",
+            "linkedinProfileLink": ""
+        }
+    }
+}

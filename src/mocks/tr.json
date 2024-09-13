@@ -1,0 +1,130 @@
+{
+    "navbar": {
+        "themeDark": "KARANLIK MOD",
+        "themeLight": "AYDINLIK MOD",
+        "abilities": "Yetenekler",
+        "works": "Projeler",
+        "lang": "ENGLISH",
+        "contactMe": "Beni işe al"
+    },
+    "bio": {
+        "fullName": "Tayfun",
+        "tagline1": "Yaratıcı düşünür",
+        "tagline2": "Minimalizm tutkunu",
+        "introText": "Merhaba, ben Tayfun. Tam kapsamlı bir yazılım geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturan bir geliştirici arıyorsanız, el sıkışalım.",
+        "workWithMe": "Beni işe al",
+        "codeRepo": "Github",
+        "socialProfile": "LinkedIn",
+        "socialLinks": {
+            "github": "https://github.com/Tayfun-Senturk",
+            "linkedin": ""
+        }
+    },
+    "competencies": {
+        "sectionTitle": "Yetenekler",
+        "skillsList": [
+            {
+                "skillName": "Javascript",
+                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "skillName": "React.Js",
+                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "skillName": "Node.Js",
+                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        ]
+    },
+    "userProfile": {
+        "sectionTitle": "Profil",
+        "basicInfo": {
+            "infoTitle": "Temel Bilgiler",
+            "infoItems": [
+                {
+                    "key": "Doğum Tarihi",
+                    "value": "29.07.1999"
+                },
+                {
+                    "key": "Yaşadığı Şehir",
+                    "value": "Bursa"
+                },
+                {
+                    "key": "Eğitim Geçmişi",
+                    "value": "Kocaeli Üniversitesi , Biyomedikal Mühendisliği, 2024"
+                },
+                {
+                    "key": "Tercih Edilen Rol",
+                    "value": "Ön yüz, UI"
+                }
+            ]
+        },
+        "selfIntro": {
+            "sectionTitle": "Hakkımda",
+            "content": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+                "Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+            ]
+        }
+    },
+    "portfolio": {
+        "sectionTitle": "Projeler",
+        "projectList": [
+            {
+                "projectTitle": "Workintech",
+                "imageLink": "",
+                "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
+                "techStack": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "repo": "Github",
+                "repoLink": "",
+                "siteLabel": "Siteyi Görüntüle",
+                "siteLink": ""
+            },
+            {
+                "projectTitle": "Random Jokes",
+                "imageLink": "",
+                "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
+                "techStack": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "repo": "Github",
+                "repoLink": "",
+                "siteLabel": "Siteyi Görüntüle",
+                "siteLink": ""
+            },
+            {
+                "projectTitle": "Journey",
+                "imageLink": "",
+                "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
+                "techStack": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "repo": "Github",
+                "repoLink": "",
+                "siteLabel": "Siteyi Görüntüle",
+                "siteLink": ""
+            }
+        ]
+    },
+    "bottomBar": {
+        "collabHeader": "Bir sonraki ürününüzde birlikte çalışalım.",
+        "email": "example@example.com",
+        "blog": "Kişisel Blog",
+        "gitRepo": "Github",
+        "linkedinProfile": "LinkedIn",
+        "links": {
+            "blogLink": "#",
+            "gitRepoLink": "https://github.com/Tayfun-Senturk",
+            "linkedinProfileLink": ""
+        }
+    }
+}
