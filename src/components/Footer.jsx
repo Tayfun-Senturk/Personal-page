@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer id="footer" className="bg-gray-100 w-full dark:bg-[#141414] mt-20">
       <div className="py-12 container mx-auto max-w-[85%] xl:max-w-8xl ">
-        <h2 className="max-w-[35%] text-left font-bold text-5xl text-black dark:text-gray-400">
+        <h2 className="max-w-auto text-left lg:max-w-[37%] font-bold text-5xl text-black dark:text-gray-400">
           {footer.collabHeader}
         </h2>
         <div className="flex flex-col items-start justify-between mt-10 lg:flex-row lg:items-center">

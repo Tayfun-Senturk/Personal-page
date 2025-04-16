@@ -88,7 +88,7 @@ const Hero = () => {
 
         </nav>
       </div>
-      <img className="rounded-lg mt-8 lg:mt-0 max-w-[550px] max-h-[375px]" src="../image.png" alt="Hero image" />
+      <img className="rounded-lg mt-8 lg:mt-0 max-w-[450px] max-h-[375px]" src="../image.png" alt="Hero image" />
     </section>
   );
 };

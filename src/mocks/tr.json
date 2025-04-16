@@ -63,8 +63,9 @@
       "selfIntro": {
         "sectionTitle": "Hakkımda",
         "content": [
-          "Gerçek dünyaya yönelik projeler geliştirerek React, JavaScript, Java, Spring Boot ve PostgreSQL teknolojileriyle 960 saatlik yoğun bir eğitim programını tamamladım.",
-          "Biyomedikal mühendisliği geçmişim sayesinde analitik düşünme becerimi, temiz kod ve kullanıcı odaklı tasarıma olan ilgimle birleştiriyorum. Takım çalışmasını seviyorum ve sürekli öğrenmeye açık bir geliştirici olarak kendimi geliştirmeye devam ediyorum."
+          "Modern, ölçeklenebilir ve kullanıcı dostu web uygulamaları geliştirmeye odaklanmış bir Junior Full Stack Developer’ım. React, JavaScript, Spring Boot ve PostgreSQL gibi teknolojilerle çalışıyor; fikirleri sürdürülebilir ve güvenilir kodlara dönüştürmeyi seviyorum.",
+    "960 saatlik yoğun bir yazılım geliştirme eğitimi sürecinin ardından; RESTful API’lerden responsive kullanıcı arayüzlerine, hatta ESP32 ve Unity ile geliştirdiğim Bluetooth kontrollü bir LED Matrix projesine kadar birçok uçtan uca proje geliştirdim.",
+    "Biyomedikal mühendisliği geçmişim sayesinde analitik düşünme, detaylara dikkat ve temiz kod yazma alışkanlıklarını yazılım geliştirme süreçlerime taşıyorum. Agile takımlarda çalışmayı, öğrenmeyi ve yazılımla değer üretmeyi çok önemsiyorum."
         ]
       }
     },

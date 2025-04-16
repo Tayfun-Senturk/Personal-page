@@ -63,8 +63,9 @@
       "selfIntro": {
         "sectionTitle": "About Me",
         "content": [
-          "I'm a Junior Full Stack Developer with a strong interest in building scalable and modern web applications. I’ve completed an intensive 960-hour full-time training where I developed real-world projects using React, JavaScript, Java, Spring Boot, and PostgreSQL.",
-          "Coming from a Biomedical Engineering background, I combine analytical thinking with a passion for clean code and user-focused design. I’m constantly learning and enjoy working in collaborative, agile environments where I can contribute and grow as a developer."
+          "I'm a Junior Full Stack Developer dedicated to crafting scalable, user-friendly web applications using React, JavaScript, Spring Boot, and PostgreSQL.",
+    "After completing an intensive 960-hour full-time development program, I built real-world projects from the ground up—ranging from secure REST APIs and responsive UIs to a Bluetooth-enabled LED matrix display using ESP32 and Unity.",
+    "With a background in Biomedical Engineering, I bring analytical thinking, attention to detail, and a passion for clean, maintainable code to every project. I thrive in collaborative teams and Agile environments, and I’m always eager to grow through hands-on development challenges."
         ]
       }
     },

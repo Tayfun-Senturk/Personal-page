@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="flex justify-between mt-8 space-x-8">
       {skills?.skillsList?.map((skill) => (
         <div className="max-w-[30%] text-left">
-          <h3 className="text-3xl font-bold dark:text-purple-300 text-blue-800">{skill.skillName}</h3>
+          <h3 className="text-2xl font-bold dark:text-purple-300 text-blue-800">{skill.skillName}</h3>
           <p className="mt-2">{skill.skillDetails}</p>
         </div>
         ))}
