@@ -36,7 +36,7 @@ const Hero = () => {
           {bio.tagline1} <br /> {bio.tagline2}
         </h1>
         <p className="mt-6 font-medium text-gray-400 text-lg lg:max-w-2xl">{bio.introText}</p>
-        <nav className="flex flex-wrap justify-start xl:justify-between max-w-lg mt-10">
+        <nav className="flex flex-wrap justify-start xl:justify-between max-w-fit mt-10">
           <button onClick={scrollToFooter}
             className="bg-blue-900 m-auto pt-2.5  mx-2  h-12 flex w-36 xl:w-40 border place-content-center border-blue-900 text-white font-bold rounded-lg r dark:border-purple-200 dark:bg-purple-200 dark:text-slate-950"
           >
@@ -64,6 +64,28 @@ const Hero = () => {
             )}
             {bio.socialProfile}
           </a>
+          <div className="relative group">
+  <button className="flex whitespace-nowrap m-2 xl:m-1 py-3 pr-6 pl-2 h-12 lg:pl-2 w-36 xl:w-auto border rounded-lg border-blue-900 text-blue-900 font-bold dark:text-purple-200 dark:border-purple-200" >
+    📄 {serverData.lang === "TÜRKÇE" ? "CV'yi İndir" : "Download CV"}
+  </button>
+  <div className="absolute hidden group-hover:block w-40 bg-white dark:bg-slate-800 shadow-md border border-gray-300 dark:border-slate-600 rounded-md z-10" >
+    <a
+      href="/cv-tr.pdf"
+      download
+      className="block px-4 py-2 text-sm rounded-md text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
+    >
+      Türkçe CV
+    </a>
+    <a
+      href="/cv-en.pdf"
+      download
+      className="block px-4 py-2 text-sm rounded-md text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
+    >
+      English CV
+    </a>
+  </div>
+</div>
+
         </nav>
       </div>
       <img className="rounded-lg mt-8 lg:mt-0 max-w-[550px] max-h-[375px]" src="../image.png" alt="Hero image" />

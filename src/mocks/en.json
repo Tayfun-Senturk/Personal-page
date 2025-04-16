@@ -1,130 +1,132 @@
 {
     "navbar": {
-        "themeDark": "DARK MODE",
-        "themeLight": "LIGHT MODE",
-        "abilities": "Skills",
-        "works": "Projects",
-        "lang": "TÜRKÇE",
-        "contactMe": "Hire me"
+      "themeDark": "DARK MODE",
+      "themeLight": "LIGHT MODE",
+      "abilities": "Skills",
+      "works": "Projects",
+      "lang": "TÜRKÇE",
+      "contactMe": "Hire me"
     },
     "bio": {
-        "fullName": "Tayfun",
-        "tagline1": "Creative thinker",
-        "tagline2": "Minimalism lover",
-        "introText": "Hi, I’m Tayfun. I’m a full-stack developer. If you are looking for a developer to craft solid and scalable frontend products with great user experiences, let’s shake hands.",
-        "workWithMe": "Hire me",
-        "codeRepo": "Github",
-        "socialProfile": "LinkedIn",
-        "socialLinks": {
-            "github": "https://github.com/Tayfun-Senturk",
-            "linkedin": ""
-        }
+      "fullName": "Tayfun Şentürk",
+      "tagline1": "Full Stack Developer",
+      "tagline2": "React & Java Enthusiast",
+      "introText": "Hi, I’m Tayfun. I’m a junior full-stack developer passionate about building scalable and user-focused web applications using React, JavaScript, Spring Boot, and PostgreSQL.",
+      "workWithMe": "Hire me",
+      "codeRepo": "Github",
+      "socialProfile": "LinkedIn",
+      "socialLinks": {
+        "github": "https://github.com/Tayfun-Senturk",
+        "linkedin": "https://www.linkedin.com/in/tayfunsenturk/"
+      }
     },
     "competencies": {
-        "sectionTitle": "Skills",
-        "skillsList": [
-            {
-                "skillName": "Javascript",
-                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            {
-                "skillName": "React.Js",
-                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            {
-                "skillName": "Node.Js",
-                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        ]
+      "sectionTitle": "Skills",
+      "skillsList": [
+        {
+          "skillName": "JavaScript",
+          "skillDetails": "Strong understanding of ES6+ features, event handling, DOM manipulation, and API integration."
+        },
+        {
+          "skillName": "React.js",
+          "skillDetails": "Experience with component-based architecture, hooks, state management, and Tailwind CSS."
+        },
+        {
+          "skillName": "Java & Spring Boot",
+          "skillDetails": "Built secure REST APIs with Spring Boot, Spring Security, JWT authentication, and PostgreSQL integration."
+        }
+      ]
     },
     "profile": {
-        "sectionTitle": "Profile",
-        "basicInfo": {
-            "infoTitle": "Basic Information",
-            "infoItems": [
-                {
-                    "key": "Date of Birth",
-                    "value": "29.07.1999"
-                },
-                {
-                    "key": "City of Residence",
-                    "value": "Bursa"
-                },
-                {
-                    "key": "Educational Background",
-                    "value": "Kocaeli University , Biomedical Engineering, 2024"
-                },
-                {
-                    "key": "Preferred Role",
-                    "value": "Frontend, UI"
-                }
-            ]
-        },
-        "selfIntro": {
-            "sectionTitle": "About Me",
-            "content": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-                "Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
-            ]
-        }
+      "sectionTitle": "Profile",
+      "basicInfo": {
+        "infoTitle": "Basic Information",
+        "infoItems": [
+          {
+            "key": "Date of Birth",
+            "value": "29.07.1999"
+          },
+          {
+            "key": "City of Residence",
+            "value": "Bursa"
+          },
+          {
+            "key": "Educational Background",
+            "value": "Kocaeli University, Biomedical Engineering, 2024"
+          },
+          {
+            "key": "Preferred Role",
+            "value": "Full Stack Developer (React & Java)"
+          }
+        ]
+      },
+      "selfIntro": {
+        "sectionTitle": "About Me",
+        "content": [
+          "I'm a Junior Full Stack Developer with a strong interest in building scalable and modern web applications. I’ve completed an intensive 960-hour full-time training where I developed real-world projects using React, JavaScript, Java, Spring Boot, and PostgreSQL.",
+          "Coming from a Biomedical Engineering background, I combine analytical thinking with a passion for clean code and user-focused design. I’m constantly learning and enjoy working in collaborative, agile environments where I can contribute and grow as a developer."
+        ]
+      }
     },
     "portfolio": {
-        "sectionTitle": "Projects",
-        "projectList": [
-            {
-                "projectTitle": "Workintech",
-                "imageLink": "p1.png",
-                "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "tech": [
-                    "react",
-                    "redux",
-                    "axios"
-                ],
-                "repo": "Github",
-                "repoLink": "",
-                "siteLabel": "View Site",
-                "siteLink": ""
-            },
-            {
-                "projectTitle": "Random Jokes",
-                "imageLink": "p2.png",
-                "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "tech": [
-                    "react",
-                    "redux",
-                    "axios"
-                ],
-                "repo": "Github",
-                "repoLink": "",
-                "siteLabel": "View Site",
-                "siteLink": ""
-            },
-            {
-                "projectTitle": "Journey",
-                "imageLink": "p3.png",
-                "projectDesc": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "tech": [
-                    "react",
-                    "redux",
-                    "axios"
-                ],
-                "repo": "Github",
-                "repoLink": "",
-                "siteLabel": "View Site",
-                "siteLink": ""
-            }
-        ]
+      "sectionTitle": "Projects",
+      "projectList": [
+        {
+          "projectTitle": "E-Commerce API",
+          "imageLink": "p1.png",
+          "projectDesc": "A secure RESTful API developed with Spring Boot and PostgreSQL. Includes role-based JWT authentication, product/order/review management and modular architecture.",
+          "tech": ["java", "spring boot", "postgresql"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/ecommerce-api-backend",
+          "siteLabel": "",
+          "siteLink": ""
+        },
+        {
+          "projectTitle": "Library Management System",
+          "imageLink": "p2.png",
+          "projectDesc": "A Java console app for managing books and members. Includes CRUD operations, fee calculation, and role-based logic for librarians and readers.",
+          "tech": ["java", "oop", "sql"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/library-management-system",
+          "siteLabel": "",
+          "siteLink": ""
+        },
+        {
+          "projectTitle": "Portfolio Website",
+          "imageLink": "p3.png",
+          "projectDesc": "A personal portfolio built with React, Tailwind CSS, and Vite. Supports dark mode and bilingual content (English/Turkish).",
+          "tech": ["react", "tailwind", "vite"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/personal-portfolio",
+          "siteLabel": "View Site",
+          "siteLink": "https://tayfunsenturk.vercel.app/"
+        },
+        {
+          "projectTitle": "LED Matrix Display (ESP32)",
+          "imageLink": "p4.png",
+          "projectDesc": "Bluetooth-controlled LED matrix animations with ESP32 and Unity mobile app. Real-time scrolling text and over 15 custom animations.",
+          "tech": ["esp32", "arduino", "unity"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/led-matrix-bluetooth-display",
+          "siteLabel": "Watch Demo",
+          "siteLink": "https://vimeo.com/1027008321"
+        }
+      ]
     },
     "footer": {
-        "collabHeader": "Let’s work together on your next product.",
-        "email": "tayfunsenturk8@gmail.com",
-        "blog": "Personal Blog",
-        "gitRepo": "Github",
-        "linkedinProfile": "LinkedIn",
-        "links": {
-            "blogLink": "#",
-            "gitRepoLink": "https://github.com/Tayfun-Senturk",
-            "linkedinProfileLink": ""
-        }
-    }
-}
+      "collabHeader": "Let’s work together on your next product.",
+      "email": "tayfunsenturk8@gmail.com",
+      "blog": "Personal Blog",
+      "gitRepo": "GitHub",
+      "linkedinProfile": "LinkedIn",
+      "links": {
+        "blogLink": "#",
+        "gitRepoLink": "https://github.com/Tayfun-Senturk",
+        "linkedinProfileLink": "https://www.linkedin.com/in/tayfunsenturk/"
+      }
+    },
+    "lang":"English"
+
+    
+  }
+  

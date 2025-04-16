@@ -1,130 +1,130 @@
 {
     "navbar": {
-        "themeDark": "KARANLIK MOD",
-        "themeLight": "AYDINLIK MOD",
-        "abilities": "Yetenekler",
-        "works": "Projeler",
-        "lang": "ENGLISH",
-        "contactMe": "Beraber çalışalım!"
+      "themeDark": "KARANLIK MOD",
+      "themeLight": "AYDINLIK MOD",
+      "abilities": "Yetenekler",
+      "works": "Projeler",
+      "lang": "ENGLISH",
+      "contactMe": "Bana Ulaş"
     },
     "bio": {
-        "fullName": "Tayfun",
-        "tagline1": "Yaratıcı düşünür",
-        "tagline2": "Minimalizm tutkunu",
-        "introText": "Merhaba, ben Tayfun. Tam kapsamlı bir yazılım geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturan bir geliştirici arıyorsanız, el sıkışalım.",
-        "workWithMe": "Beraber çalışalım!",
-        "codeRepo": "Github",
-        "socialProfile": "LinkedIn",
-        "socialLinks": {
-            "github": "https://github.com/Tayfun-Senturk",
-            "linkedin": ""
-        }
+      "fullName": "Tayfun Şentürk",
+      "tagline1": "Full Stack Geliştirici",
+      "tagline2": "React & Java Tutkunu",
+      "introText": "Merhaba, ben Tayfun. React, JavaScript, Spring Boot ve PostgreSQL kullanarak ölçeklenebilir ve kullanıcı odaklı web uygulamaları geliştirme konusunda tutkulu bir junior full-stack geliştiriciyim.",
+      "workWithMe": "Bana Ulaş",
+      "codeRepo": "Github",
+      "socialProfile": "LinkedIn",
+      "socialLinks": {
+        "github": "https://github.com/Tayfun-Senturk",
+        "linkedin": "https://www.linkedin.com/in/tayfunsenturk/"
+      }
     },
     "competencies": {
-        "sectionTitle": "Yetenekler",
-        "skillsList": [
-            {
-                "skillName": "Javascript",
-                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            {
-                "skillName": "React.Js",
-                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            {
-                "skillName": "Node.Js",
-                "skillDetails": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        ]
+      "sectionTitle": "Yetenekler",
+      "skillsList": [
+        {
+          "skillName": "JavaScript",
+          "skillDetails": "ES6+ özellikleri, event handling, DOM manipülasyonu ve API entegrasyonu konularında sağlam bilgi."
+        },
+        {
+          "skillName": "React.js",
+          "skillDetails": "Bileşen tabanlı mimari, hook'lar, durum yönetimi ve Tailwind CSS kullanımı konularında deneyim."
+        },
+        {
+          "skillName": "Java & Spring Boot",
+          "skillDetails": "Spring Boot ile güvenli REST API'ler, Spring Security, JWT doğrulama ve PostgreSQL entegrasyonu."
+        }
+      ]
     },
     "profile": {
-        "sectionTitle": "Profil",
-        "basicInfo": {
-            "infoTitle": "Temel Bilgiler",
-            "infoItems": [
-                {
-                    "key": "Doğum Tarihi",
-                    "value": "29.07.1999"
-                },
-                {
-                    "key": "Yaşadığı Şehir",
-                    "value": "Bursa"
-                },
-                {
-                    "key": "Eğitim Geçmişi",
-                    "value": "Kocaeli Üniversitesi , Biyomedikal Mühendisliği, 2024"
-                },
-                {
-                    "key": "Tercih Edilen Rol",
-                    "value": "Ön Yüz Geliştirme"
-                }
-            ]
-        },
-        "selfIntro": {
-            "sectionTitle": "Hakkımda",
-            "content": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-                "Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
-            ]
-        }
+      "sectionTitle": "Profil",
+      "basicInfo": {
+        "infoTitle": "Temel Bilgiler",
+        "infoItems": [
+          {
+            "key": "Doğum Tarihi",
+            "value": "29.07.1999"
+          },
+          {
+            "key": "İkamet Şehri",
+            "value": "Bursa"
+          },
+          {
+            "key": "Eğitim Bilgisi",
+            "value": "Kocaeli Üniversitesi, Biyomedikal Mühendisliği, 2024"
+          },
+          {
+            "key": "Tercih Edilen Rol",
+            "value": "Full Stack Developer (React & Java)"
+          }
+        ]
+      },
+      "selfIntro": {
+        "sectionTitle": "Hakkımda",
+        "content": [
+          "Gerçek dünyaya yönelik projeler geliştirerek React, JavaScript, Java, Spring Boot ve PostgreSQL teknolojileriyle 960 saatlik yoğun bir eğitim programını tamamladım.",
+          "Biyomedikal mühendisliği geçmişim sayesinde analitik düşünme becerimi, temiz kod ve kullanıcı odaklı tasarıma olan ilgimle birleştiriyorum. Takım çalışmasını seviyorum ve sürekli öğrenmeye açık bir geliştirici olarak kendimi geliştirmeye devam ediyorum."
+        ]
+      }
     },
     "portfolio": {
-        "sectionTitle": "Projeler",
-        "projectList": [
-            {
-                "projectTitle": "Workintech",
-                "imageLink": "p1.png",
-                "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
-                "tech": [
-                    "react",
-                    "redux",
-                    "axios"
-                ],
-                "repo": "Github",
-                "repoLink": "",
-                "siteLabel": "Siteyi Görüntüle",
-                "siteLink": ""
-            },
-            {
-                "projectTitle": "Random Jokes",
-                "imageLink": "p2.png",
-                "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
-                "tech": [
-                    "react",
-                    "redux",
-                    "axios"
-                ],
-                "repo": "Github",
-                "repoLink": "",
-                "siteLabel": "Siteyi Görüntüle",
-                "siteLink": ""
-            },
-            {
-                "projectTitle": "Journey",
-                "imageLink": "p3.png",
-                "projectDesc": "Kullanıcıların kabul edecekleri veya reddedecekleri çerezleri seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal ayarlı bir çerez eklentisi. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuş olup NPM paketi olarak mevcuttur ve git deposu, koda ve temalara herhangi bir türde özelleştirme yapılmasına olanak tanır.",
-                "tech": [
-                    "react",
-                    "redux",
-                    "axios"
-                ],
-                "repo": "Github",
-                "repoLink": "",
-                "siteLabel": "Siteyi Görüntüle",
-                "siteLink": ""
-            }
-        ]
+      "sectionTitle": "Projeler",
+      "projectList": [
+        {
+          "projectTitle": "E-Ticaret API",
+          "imageLink": "p1.png",
+          "projectDesc": "Spring Boot ve PostgreSQL ile geliştirilmiş güvenli bir RESTful API. JWT doğrulama, rol bazlı erişim, ürün/sipariş/yorum yönetimi ve modüler yapı içerir.",
+          "tech": ["java", "spring boot", "postgresql"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/ecommerce-api-backend",
+          "siteLabel": "",
+          "siteLink": ""
+        },
+        {
+          "projectTitle": "Kütüphane Yönetim Sistemi",
+          "imageLink": "p2.png",
+          "projectDesc": "Kitap ve üye yönetimi için Java ile geliştirilmiş konsol uygulaması. CRUD işlemleri, ücret hesaplama ve yönetici/okuyucu bazlı erişim içerir.",
+          "tech": ["java", "oop", "sql"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/library-management-system",
+          "siteLabel": "",
+          "siteLink": ""
+        },
+        {
+          "projectTitle": "Kişisel Portfolyo Web Sitesi",
+          "imageLink": "p3.png",
+          "projectDesc": "React, Tailwind CSS ve Vite ile geliştirilmiş kişisel portfolyo. Karanlık mod ve İngilizce/Türkçe dil desteği içerir.",
+          "tech": ["react", "tailwind", "vite"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/personal-portfolio",
+          "siteLabel": "Siteyi Görüntüle",
+          "siteLink": "https://tayfunsenturk.vercel.app/"
+        },
+        {
+          "projectTitle": "LED Matrix Gösterimi (ESP32)",
+          "imageLink": "p4.png",
+          "projectDesc": "ESP32 ve Unity tabanlı mobil uygulama ile Bluetooth üzerinden kontrol edilen LED matrix. Gerçek zamanlı kayan yazılar ve özel animasyonlar içerir.",
+          "tech": ["esp32", "arduino", "unity"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/led-matrix-bluetooth-display",
+          "siteLabel": "Demo İzle",
+          "siteLink": "https://vimeo.com/1027008321"
+        }
+      ]
     },
     "footer": {
-        "collabHeader": "Bir sonraki ürününüzde birlikte çalışalım.",
-        "email": "tayfunsenturk8@gmail.com",
-        "blog": "Kişisel Blog",
-        "gitRepo": "Github",
-        "linkedinProfile": "LinkedIn",
-        "links": {
-            "blogLink": "#",
-            "gitRepoLink": "https://github.com/Tayfun-Senturk",
-            "linkedinProfileLink": ""
-        }
-    }
-}
+      "collabHeader": "Birlikte yeni projeler geliştirelim.",
+      "email": "tayfunsenturk8@gmail.com",
+      "blog": "Kişisel Blog",
+      "gitRepo": "GitHub",
+      "linkedinProfile": "LinkedIn",
+      "links": {
+        "blogLink": "#",
+        "gitRepoLink": "https://github.com/Tayfun-Senturk",
+        "linkedinProfileLink": "https://www.linkedin.com/in/tayfunsenturk/"
+      }
+    },
+    "lang":"TÜRKÇE"
+  }
+  
