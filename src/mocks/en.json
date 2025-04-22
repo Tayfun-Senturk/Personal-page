@@ -98,7 +98,7 @@
           "projectDesc": "A personal portfolio built with React, Tailwind CSS, and Vite. Supports dark mode and bilingual content (English/Turkish).",
           "tech": ["react", "tailwind", "vite"],
           "repo": "GitHub",
-          "repoLink": "https://github.com/Tayfun-Senturk/personal-portfolio",
+          "repoLink": "https://github.com/Tayfun-Senturk/Personal-page",
           "siteLabel": "View Site",
           "siteLink": "https://tayfunsenturk.vercel.app/"
         },
