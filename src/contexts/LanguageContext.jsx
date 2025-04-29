@@ -1,6 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import {useLocalStorage} from '../hooks/useLocalStorage';
-import axios from "axios"
+import { useLocalStorage } from '../hooks/useLocalStorage';
 
 const LocalizationContext = createContext();
 
@@ -17,8 +16,7 @@ export const LocalizationProvider = ({ children }) => {
     setIsFetching(true);
     try {
       const languageMock = await import(`../mocks/${currentLanguage}.json`);
-      const response = await axios.post('https://reqres.in/api/workintech', languageMock);
-      setServerData(response.data);
+      setServerData(languageMock.default); // .default gerekli çünkü dynamic import bir ES module döner
     } catch (err) {
       console.error('Veri alırken hata oluştu:', err);
     } finally {
