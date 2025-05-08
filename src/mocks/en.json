@@ -11,7 +11,7 @@
       "fullName": "Tayfun Şentürk",
       "tagline1": "Full Stack Developer",
       "tagline2": "React & Java Enthusiast",
-      "introText": "Hi, I’m Tayfun. I’m a junior full-stack developer passionate about building scalable and user-focused web applications using React, JavaScript, Spring Boot, and PostgreSQL.",
+      "introText": "Hi, I'm Tayfun. I'm a junior full-stack developer passionate about building scalable and user-focused web applications using React, JavaScript, Spring Boot, and PostgreSQL.",
       "workWithMe": "Hire me",
       "codeRepo": "Github",
       "socialProfile": "LinkedIn",
@@ -22,20 +22,62 @@
     },
     "competencies": {
       "sectionTitle": "Skills",
-      "skillsList": [
-        {
-          "skillName": "JavaScript",
-          "skillDetails": "Strong understanding of ES6+ features, event handling, DOM manipulation, and API integration."
+      "categories": {
+        "frontend": {
+          "title": "Frontend",
+          "icon": "🎨",
+          "skills": [
+            {
+              "skillName": "React & Redux",
+              "skillDetails": "Modern web application development, state management, and component-based architecture."
+            },
+            {
+              "skillName": "JavaScript (ES6+)",
+              "skillDetails": "Modern JavaScript features, async/await, DOM manipulation, and API integration."
+            },
+            {
+              "skillName": "Tailwind CSS",
+              "skillDetails": "Responsive design, modern UI development, and utility-first CSS framework usage."
+            }
+          ]
         },
-        {
-          "skillName": "React.js",
-          "skillDetails": "Experience with component-based architecture, hooks, state management, and Tailwind CSS."
+        "backend": {
+          "title": "Backend",
+          "icon": "⚙️",
+          "skills": [
+            {
+              "skillName": "Java & Spring Boot",
+              "skillDetails": "RESTful API development, Spring Security, and JWT authentication implementation."
+            },
+            {
+              "skillName": "PostgreSQL & JPA",
+              "skillDetails": "Database design, relational database management, and ORM usage."
+            },
+            {
+              "skillName": "RESTful APIs",
+              "skillDetails": "Architectural design, endpoint optimization, and API security."
+            }
+          ]
         },
-        {
-          "skillName": "Java & Spring Boot",
-          "skillDetails": "Built secure REST APIs with Spring Boot, Spring Security, JWT authentication, and PostgreSQL integration."
+        "tools": {
+          "title": "Tools & Process",
+          "icon": "🛠️",
+          "skills": [
+            {
+              "skillName": "Git & GitHub",
+              "skillDetails": "Version control, branch management, and collaborative development."
+            },
+            {
+              "skillName": "Agile & SOLID",
+              "skillDetails": "Agile methodologies, SOLID principles, and clean code practices."
+            },
+            {
+              "skillName": "Testing",
+              "skillDetails": "Unit and integration testing with JUnit, Jest, and Cypress."
+            }
+          ]
         }
-      ]
+      }
     },
     "profile": {
       "sectionTitle": "Profile",
@@ -65,7 +107,7 @@
         "content": [
           "I'm a Junior Full Stack Developer dedicated to crafting scalable, user-friendly web applications using React, JavaScript, Spring Boot, and PostgreSQL.",
     "After completing an intensive 960-hour full-time development program, I built real-world projects from the ground up—ranging from secure REST APIs and responsive UIs to a Bluetooth-enabled LED matrix display using ESP32 and Unity.",
-    "With a background in Biomedical Engineering, I bring analytical thinking, attention to detail, and a passion for clean, maintainable code to every project. I thrive in collaborative teams and Agile environments, and I’m always eager to grow through hands-on development challenges."
+    "With a background in Biomedical Engineering, I bring analytical thinking, attention to detail, and a passion for clean, maintainable code to every project. I thrive in collaborative teams and Agile environments, and I'm always eager to grow through hands-on development challenges."
         ]
       }
     },
@@ -115,8 +157,10 @@
       ]
     },
     "footer": {
-      "collabHeader": "Let’s work together on your next product.",
+      "collabHeader": "Let's work together on your next product.",
       "email": "tayfunsenturk8@gmail.com",
+      "copyText": "Click to copy",
+      "copiedText": "Email copied!",
       "blog": "Personal Blog",
       "gitRepo": "GitHub",
       "linkedinProfile": "LinkedIn",

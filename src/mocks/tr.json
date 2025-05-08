@@ -22,20 +22,62 @@
     },
     "competencies": {
       "sectionTitle": "Yetenekler",
-      "skillsList": [
-        {
-          "skillName": "JavaScript",
-          "skillDetails": "ES6+ özellikleri, event handling, DOM manipülasyonu ve API entegrasyonu konularında sağlam bilgi."
+      "categories": {
+        "frontend": {
+          "title": "Frontend",
+          "icon": "🎨",
+          "skills": [
+            {
+              "skillName": "React & Redux",
+              "skillDetails": "Modern web uygulamaları geliştirme, state yönetimi ve component-based mimari."
+            },
+            {
+              "skillName": "JavaScript (ES6+)",
+              "skillDetails": "Modern JavaScript özellikleri, async/await, DOM manipülasyonu ve API entegrasyonu."
+            },
+            {
+              "skillName": "Tailwind CSS",
+              "skillDetails": "Responsive tasarım, modern UI geliştirme ve utility-first CSS framework kullanımı."
+            }
+          ]
         },
-        {
-          "skillName": "React.js",
-          "skillDetails": "Bileşen tabanlı mimari, hook'lar, durum yönetimi ve Tailwind CSS kullanımı konularında deneyim."
+        "backend": {
+          "title": "Backend",
+          "icon": "⚙️",
+          "skills": [
+            {
+              "skillName": "Java & Spring Boot",
+              "skillDetails": "RESTful API geliştirme, Spring Security ve JWT authentication implementasyonu."
+            },
+            {
+              "skillName": "PostgreSQL & JPA",
+              "skillDetails": "Veritabanı tasarımı, ilişkisel veritabanı yönetimi ve ORM kullanımı."
+            },
+            {
+              "skillName": "RESTful APIs",
+              "skillDetails": "Mimari tasarım, endpoint optimizasyonu ve API güvenliği."
+            }
+          ]
         },
-        {
-          "skillName": "Java & Spring Boot",
-          "skillDetails": "Spring Boot ile güvenli REST API'ler, Spring Security, JWT doğrulama ve PostgreSQL entegrasyonu."
+        "tools": {
+          "title": "Araçlar & Süreç",
+          "icon": "🛠️",
+          "skills": [
+            {
+              "skillName": "Git & GitHub",
+              "skillDetails": "Versiyon kontrolü, branch yönetimi ve collaborative development."
+            },
+            {
+              "skillName": "Agile & SOLID",
+              "skillDetails": "Agile metodolojileri, SOLID prensipleri ve clean code uygulamaları."
+            },
+            {
+              "skillName": "Testing",
+              "skillDetails": "JUnit, Jest ve Cypress ile unit ve integration testing."
+            }
+          ]
         }
-      ]
+      }
     },
     "profile": {
       "sectionTitle": "Profil",
@@ -63,8 +105,8 @@
       "selfIntro": {
         "sectionTitle": "Hakkımda",
         "content": [
-          "Modern, ölçeklenebilir ve kullanıcı dostu web uygulamaları geliştirmeye odaklanmış bir Junior Full Stack Developer’ım. React, JavaScript, Spring Boot ve PostgreSQL gibi teknolojilerle çalışıyor; fikirleri sürdürülebilir ve güvenilir kodlara dönüştürmeyi seviyorum.",
-    "960 saatlik yoğun bir yazılım geliştirme eğitimi sürecinin ardından; RESTful API’lerden responsive kullanıcı arayüzlerine, hatta ESP32 ve Unity ile geliştirdiğim Bluetooth kontrollü bir LED Matrix projesine kadar birçok uçtan uca proje geliştirdim.",
+          "Modern, ölçeklenebilir ve kullanıcı dostu web uygulamaları geliştirmeye odaklanmış bir Junior Full Stack Developer'ım. React, JavaScript, Spring Boot ve PostgreSQL gibi teknolojilerle çalışıyor; fikirleri sürdürülebilir ve güvenilir kodlara dönüştürmeyi seviyorum.",
+    "960 saatlik yoğun bir yazılım geliştirme eğitimi sürecinin ardından; RESTful API'lerden responsive kullanıcı arayüzlerine, hatta ESP32 ve Unity ile geliştirdiğim Bluetooth kontrollü bir LED Matrix projesine kadar birçok uçtan uca proje geliştirdim.",
     "Biyomedikal mühendisliği geçmişim sayesinde analitik düşünme, detaylara dikkat ve temiz kod yazma alışkanlıklarını yazılım geliştirme süreçlerime taşıyorum. Agile takımlarda çalışmayı, öğrenmeyi ve yazılımla değer üretmeyi çok önemsiyorum."
         ]
       }
@@ -117,6 +159,8 @@
     "footer": {
       "collabHeader": "Birlikte yeni projeler geliştirelim.",
       "email": "tayfunsenturk8@gmail.com",
+      "copyText": "Kopyalamak için tıklayın",
+      "copiedText": "Email kopyalandı!",
       "blog": "Kişisel Blog",
       "gitRepo": "GitHub",
       "linkedinProfile": "LinkedIn",

@@ -16,7 +16,7 @@ export const LocalizationProvider = ({ children }) => {
     setIsFetching(true);
     try {
       const languageMock = await import(`../mocks/${currentLanguage}.json`);
-      setServerData(languageMock.default); // .default gerekli çünkü dynamic import bir ES module döner
+      setServerData(languageMock.default); 
     } catch (err) {
       console.error('Veri alırken hata oluştu:', err);
     } finally {
