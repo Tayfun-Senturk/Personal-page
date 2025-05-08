@@ -8,13 +8,13 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-24 bg-gradient-to-b from-gray-50 to-white dark:from-[#1a1a1f] dark:to-[#242128]">
-      <div className="max-w-[85%] xl:max-w-8xl mx-auto">
-        <h2 className="text-5xl font-bold text-black dark:text-gray-400 mb-16 relative group">
+      <div className="max-w-[85%] xl:max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-4xl sm:text-5xl font-bold text-black dark:text-gray-400 mb-12 sm:mb-16 relative group">
           {project.sectionTitle}
           <div className="absolute -bottom-4 left-0 w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
           {project.projectList.map((project, index) => (
             <div
               key={index}
@@ -24,12 +24,11 @@ const Projects = () => {
                 <img
                   src={`./${project.imageLink}`}
                   alt={project.projectTitle}
-                  className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-48 sm:h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                
-                <div className="absolute inset-0 flex items-end p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="absolute inset-0 flex items-end p-6 sm:p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <div className="space-y-4">
                     <div className="flex flex-wrap gap-2">
                       {project.tech.map((tech, techIndex) => (
@@ -45,11 +44,11 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="p-8">
-                <h3 className="text-3xl font-bold text-blue-800 dark:text-purple-200 mb-4 group-hover:text-blue-600 dark:group-hover:text-purple-100 transition-colors duration-300">
+              <div className="p-6 sm:p-8">
+                <h3 className="text-2xl sm:text-3xl font-bold text-blue-800 dark:text-purple-200 mb-4 group-hover:text-blue-600 dark:group-hover:text-purple-100 transition-colors duration-300">
                   {project.projectTitle}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed line-clamp-3">
+                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-6 leading-relaxed line-clamp-3">
                   {project.projectDesc}
                 </p>
 
@@ -57,14 +56,14 @@ const Projects = () => {
                   {project.tech.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-4 py-2 text-sm font-medium text-blue-800 dark:text-purple-300 bg-blue-50 dark:bg-purple-900/30 rounded-full transition-colors duration-300 group-hover:bg-blue-100 dark:group-hover:bg-purple-900/50"
+                      className="px-3 py-1 sm:px-4 sm:py-2 text-sm font-medium text-blue-800 dark:text-purple-300 bg-blue-50 dark:bg-purple-900/30 rounded-full transition-colors duration-300 group-hover:bg-blue-100 dark:group-hover:bg-purple-900/50"
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
 
-                <div className="flex justify-between items-center pt-4 border-t border-gray-100 dark:border-gray-700">
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 pt-4 border-t border-gray-100 dark:border-gray-700">
                   <a
                     className="group/link text-blue-800 hover:text-blue-600 dark:text-purple-200 dark:hover:text-purple-100 font-semibold flex items-center transition-colors duration-300"
                     href={project.repoLink}

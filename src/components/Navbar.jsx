@@ -7,6 +7,7 @@ const Navbar = () => {
   const { toggleLanguage, serverData } = useLocalization();
   const navbar = serverData.navbar;
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +24,7 @@ const Navbar = () => {
         top: targetSection.offsetTop - 80,
         behavior: 'smooth',
       });
+      setIsMobileMenuOpen(false);
 
       if (sectionId === 'footer') {
         const emailElement = document.querySelector('.email-link');
@@ -88,6 +90,45 @@ const Navbar = () => {
             <button
               onClick={() => scrollToSection("footer")}
               className="hidden md:block px-6 py-2.5 bg-blue-800 dark:bg-purple-200 text-white dark:text-slate-950 font-medium rounded-lg hover:bg-blue-700 dark:hover:bg-purple-300 transition-colors duration-300"
+            >
+              {navbar.contactMe}
+            </button>
+
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden p-2 text-gray-600 dark:text-gray-300 hover:text-blue-800 dark:hover:text-purple-200"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {isMobileMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        {/* Mobil Menü */}
+        <div className={`md:hidden transition-all duration-300 ease-in-out ${
+          isMobileMenuOpen ? 'max-h-48 opacity-100' : 'max-h-0 opacity-0'
+        } overflow-hidden`}>
+          <div className="py-4 space-y-4">
+            <button
+              onClick={() => scrollToSection("skills")}
+              className="block w-full text-left px-4 py-2 text-gray-600 dark:text-gray-300 hover:text-blue-800 dark:hover:text-purple-200 font-medium transition-colors duration-300"
+            >
+              {navbar.abilities}
+            </button>
+            <button
+              onClick={() => scrollToSection("projects")}
+              className="block w-full text-left px-4 py-2 text-gray-600 dark:text-gray-300 hover:text-blue-800 dark:hover:text-purple-200 font-medium transition-colors duration-300"
+            >
+              {navbar.works}
+            </button>
+            <button
+              onClick={() => scrollToSection("footer")}
+              className="block w-full text-left px-4 py-2 bg-blue-800 dark:bg-purple-200 text-white dark:text-slate-950 font-medium rounded-lg hover:bg-blue-700 dark:hover:bg-purple-300 transition-colors duration-300"
             >
               {navbar.contactMe}
             </button>
