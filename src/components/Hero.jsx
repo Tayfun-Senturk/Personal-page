@@ -67,7 +67,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <nav className="flex flex-wrap gap-4 mt-8">
+        <nav className="flex flex-wrap gap-4 mt-8 mb-8 lg:mb-0">
           <button
             onClick={scrollToFooter}
             className="group relative w-full sm:w-auto px-8 py-3 bg-blue-800 dark:bg-purple-200 text-white dark:text-slate-950 font-bold rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-105"
@@ -118,14 +118,13 @@ const Hero = () => {
               </span>
             </button>
             {isDropdownOpen && (
-              <div className="absolute w-full sm:w-48 bg-white dark:bg-slate-800 shadow-xl border border-gray-200 dark:border-slate-700 rounded-lg z-10 mt-2 left-0 animate-fade-in">
+              <div className="absolute left-0 mt-2 w-full sm:w-48 bg-white dark:bg-slate-800 shadow-xl border border-gray-200 dark:border-slate-700 rounded-lg z-[9999] animate-fade-in">
                 <div className="p-1">
                   <a
                     href="/cv-tr.pdf"
                     download
                     className="flex items-center px-4 py-3 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 rounded-md group"
                   >
-                    
                     <span className="relative">
                       Türkçe CV
                       <span className="absolute -bottom-0.5 left-0 w-0 h-0.5 bg-blue-800 dark:bg-purple-200 transition-all duration-300 group-hover:w-full"></span>
@@ -136,7 +135,6 @@ const Hero = () => {
                     download
                     className="flex items-center px-4 py-3 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 rounded-md group"
                   >
-                    
                     <span className="relative">
                       English CV
                       <span className="absolute -bottom-0.5 left-0 w-0 h-0.5 bg-blue-800 dark:bg-purple-200 transition-all duration-300 group-hover:w-full"></span>
@@ -149,8 +147,8 @@ const Hero = () => {
         </nav>
       </div>
 
-      <div className="relative mt-12 lg:mt-0 group w-full lg:w-1/2 flex justify-center lg:justify-end lg:pr-8">
-        <div className="relative">
+      <div className="relative mt-20 lg:mt-0 group w-full lg:w-1/2 flex justify-center lg:justify-end lg:pr-8">
+        <div className="relative z-0">
           <img
             className="rounded-2xl w-full max-w-[450px] max-h-[375px] object-cover shadow-2xl transform transition-all duration-500 group-hover:scale-105 group-hover:rotate-1"
             src="../image.png"

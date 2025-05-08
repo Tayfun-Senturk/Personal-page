@@ -40,7 +40,9 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/80 dark:bg-[#242128]/80 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      (isScrolled || isMobileMenuOpen)
+        ? 'bg-white/80 dark:bg-[#242128]/80 backdrop-blur-md shadow-lg'
+        : 'bg-transparent'
     }`}>
       <div className="max-w-[85%] xl:max-w-8xl mx-auto">
         <div className="flex items-center justify-between py-4">
@@ -74,7 +76,7 @@ const Navbar = () => {
                   checked={darkMode === "light"}
                 />
                 <div className="w-14 h-8 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[4px] after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                <span className="ml-3 text-sm font-medium text-gray-600 dark:text-gray-300">
+                <span className="ml-3 text-sm font-medium text-gray-600 dark:text-gray-300 md:block hidden">
                   {darkMode === "light" ? navbar.themeDark : navbar.themeLight}
                 </span>
               </label>
