@@ -31,9 +31,9 @@ const Footer = () => {
                 onClick={copyEmail}
                 className="flex items-center text-left transition-all duration-300 hover:scale-105 w-full lg:w-auto"
               >
-                <span className="text-2xl transition-transform duration-300 group-hover:rotate-12">👉</span>
+                <span className="text-lg sm:text-2xl transition-transform duration-300 group-hover:rotate-12">👉</span>
                 <div className="ml-2">
-                  <span className="email-link text-lg sm:text-xl font-bold text-pink-600 dark:text-purple-200 underline decoration-2 underline-offset-4 hover:text-pink-500 dark:hover:text-purple-100 transition-colors duration-300">
+                  <span className="email-link text-sm sm:text-lg md:text-xl font-bold text-pink-600 dark:text-purple-200 underline decoration-2 underline-offset-4 hover:text-pink-500 dark:hover:text-purple-100 transition-colors duration-300">
                     {footer.email}
                   </span>
                   <span className="block text-sm text-gray-500 dark:text-gray-400 mt-1">
