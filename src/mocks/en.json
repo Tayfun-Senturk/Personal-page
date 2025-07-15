@@ -10,8 +10,8 @@
     "bio": {
       "fullName": "Tayfun Şentürk",
       "tagline1": "Full Stack Developer",
-      "tagline2": "React & Java Enthusiast",
-      "introText": "Hi, I'm Tayfun. I'm a junior full-stack developer passionate about building scalable and user-focused web applications using React, JavaScript, Spring Boot, and PostgreSQL.",
+      "tagline2": "React & Spring Boot Developer",
+      "introText": "Hi, I'm Tayfun. I'm a full-stack developer experienced in building production-ready applications using React and Spring Boot. I focus on clean, maintainable code, test automation, and modern software architectures.",
       "workWithMe": "Hire me",
       "codeRepo": "Github",
       "socialProfile": "LinkedIn",
@@ -36,8 +36,16 @@
               "skillDetails": "Modern JavaScript features, async/await, DOM manipulation, and API integration."
             },
             {
+              "skillName": "jQuery",
+              "skillDetails": "DOM manipulation, event handling, and legacy compatibility."
+            },
+            {
+              "skillName": "HTML5 & CSS3",
+              "skillDetails": "Semantic markup, responsive layouts, and modern styling techniques."
+            },
+            {
               "skillName": "Tailwind CSS",
-              "skillDetails": "Responsive design, modern UI development, and utility-first CSS framework usage."
+              "skillDetails": "Utility-first framework for rapid, responsive UI development."
             }
           ]
         },
@@ -47,15 +55,23 @@
           "skills": [
             {
               "skillName": "Java & Spring Boot",
-              "skillDetails": "RESTful API development, Spring Security, and JWT authentication implementation."
+              "skillDetails": "RESTful API development, layered architecture, and microservice patterns."
+            },
+            {
+              "skillName": "PHP & Laravel",
+              "skillDetails": "MVC architecture, Eloquent ORM, and RESTful APIs with Laravel 12."
             },
             {
               "skillName": "PostgreSQL & JPA",
-              "skillDetails": "Database design, relational database management, and ORM usage."
+              "skillDetails": "Relational database design, performance tuning, and ORM usage."
             },
             {
-              "skillName": "RESTful APIs",
-              "skillDetails": "Architectural design, endpoint optimization, and API security."
+              "skillName": "MySQL",
+              "skillDetails": "Schema design, indexing, and query optimisation for high performance."
+            },
+            {
+              "skillName": "JWT & Spring Security",
+              "skillDetails": "Secure authentication and authorization mechanisms."
             }
           ]
         },
@@ -65,15 +81,27 @@
           "skills": [
             {
               "skillName": "Git & GitHub",
-              "skillDetails": "Version control, branch management, and collaborative development."
+              "skillDetails": "Version control, branch management, and collaborative workflows."
+            },
+            {
+              "skillName": "Docker & Composer",
+              "skillDetails": "Containerization and PHP dependency management for consistent environments."
+            },
+            {
+              "skillName": "Postman & Swagger",
+              "skillDetails": "API testing, documentation, and client generation."
+            },
+            {
+              "skillName": "Testing & Automation",
+              "skillDetails": "Cypress, Selenium, Jest, Testing Library, PHPUnit, and JUnit."
             },
             {
               "skillName": "Agile & SOLID",
               "skillDetails": "Agile methodologies, SOLID principles, and clean code practices."
             },
             {
-              "skillName": "Testing",
-              "skillDetails": "Unit and integration testing with JUnit, Jest, and Cypress."
+              "skillName": "IDE & Bash",
+              "skillDetails": "Efficient development with VS Code, IntelliJ IDEA, and Bash scripting."
             }
           ]
         }
@@ -98,16 +126,16 @@
           },
           {
             "key": "Preferred Role",
-            "value": "Full Stack Developer (React & Java)"
+            "value": "Full Stack Developer (React & Spring Boot)"
           }
         ]
       },
       "selfIntro": {
         "sectionTitle": "About Me",
         "content": [
-          "I'm a Junior Full Stack Developer dedicated to crafting scalable, user-friendly web applications using React, JavaScript, Spring Boot, and PostgreSQL.",
-    "After completing an intensive 960-hour full-time development program, I built real-world projects from the ground up—ranging from secure REST APIs and responsive UIs to a Bluetooth-enabled LED matrix display using ESP32 and Unity.",
-    "With a background in Biomedical Engineering, I bring analytical thinking, attention to detail, and a passion for clean, maintainable code to every project. I thrive in collaborative teams and Agile environments, and I'm always eager to grow through hands-on development challenges."
+          "Full-stack developer experienced in production-ready projects, specialising in React and Spring Boot.",
+          "Focused on clean, maintainable code, comprehensive test automation, and modern software architectures (OOP, SOLID, layered, component-based).",
+          "Collaborative team player who communicates technical concepts effectively and delivers tangible business value."
         ]
       }
     },

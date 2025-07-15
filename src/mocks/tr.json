@@ -10,8 +10,8 @@
     "bio": {
       "fullName": "Tayfun Şentürk",
       "tagline1": "Full Stack Geliştirici",
-      "tagline2": "React & Java Tutkunu",
-      "introText": "Merhaba, ben Tayfun. React, JavaScript, Spring Boot ve PostgreSQL kullanarak ölçeklenebilir ve kullanıcı odaklı web uygulamaları geliştirme konusunda tutkulu bir junior full-stack geliştiriciyim.",
+      "tagline2": "React & Spring Boot Geliştiricisi",
+      "introText": "Merhaba, ben Tayfun. React ve Spring Boot kullanarak üretime hazır web uygulamaları geliştiren, kod kalitesine, sürdürülebilirliğe ve test otomasyonuna odaklı bir full-stack geliştiriciyim.",
       "workWithMe": "Bana Ulaş",
       "codeRepo": "Github",
       "socialProfile": "LinkedIn",
@@ -29,15 +29,23 @@
           "skills": [
             {
               "skillName": "React & Redux",
-              "skillDetails": "Modern web uygulamaları geliştirme, state yönetimi ve component-based mimari."
+              "skillDetails": "Modern web uygulamaları geliştirme, state yönetimi ve component tabanlı mimari."
             },
             {
               "skillName": "JavaScript (ES6+)",
               "skillDetails": "Modern JavaScript özellikleri, async/await, DOM manipülasyonu ve API entegrasyonu."
             },
             {
+              "skillName": "jQuery",
+              "skillDetails": "DOM manipülasyonu, olay yönetimi ve legacy uyumluluğu."
+            },
+            {
+              "skillName": "HTML5 & CSS3",
+              "skillDetails": "Semantik işaretleme, responsive tasarımlar ve modern stil teknikleri."
+            },
+            {
               "skillName": "Tailwind CSS",
-              "skillDetails": "Responsive tasarım, modern UI geliştirme ve utility-first CSS framework kullanımı."
+              "skillDetails": "Hızlı ve responsive UI geliştirme için utility-first framework."
             }
           ]
         },
@@ -47,15 +55,23 @@
           "skills": [
             {
               "skillName": "Java & Spring Boot",
-              "skillDetails": "RESTful API geliştirme, Spring Security ve JWT authentication implementasyonu."
+              "skillDetails": "RESTful API geliştirme, katmanlı mimari ve mikroservis desenleri."
+            },
+            {
+              "skillName": "PHP & Laravel",
+              "skillDetails": "MVC mimarisi, Eloquent ORM ve Laravel 12 ile RESTful API'ler."
             },
             {
               "skillName": "PostgreSQL & JPA",
-              "skillDetails": "Veritabanı tasarımı, ilişkisel veritabanı yönetimi ve ORM kullanımı."
+              "skillDetails": "İlişkisel veritabanı tasarımı, performans optimizasyonu ve ORM kullanımı."
             },
             {
-              "skillName": "RESTful APIs",
-              "skillDetails": "Mimari tasarım, endpoint optimizasyonu ve API güvenliği."
+              "skillName": "MySQL",
+              "skillDetails": "Şema tasarımı, indeksleme ve yüksek performans için sorgu optimizasyonu."
+            },
+            {
+              "skillName": "JWT & Spring Security",
+              "skillDetails": "Güvenli kimlik doğrulama ve yetkilendirme mekanizmaları."
             }
           ]
         },
@@ -65,15 +81,27 @@
           "skills": [
             {
               "skillName": "Git & GitHub",
-              "skillDetails": "Versiyon kontrolü, branch yönetimi ve collaborative development."
+              "skillDetails": "Versiyon kontrolü, branch yönetimi ve işbirlikçi çalışma akışları."
+            },
+            {
+              "skillName": "Docker & Composer",
+              "skillDetails": "Konteynerleştirme ve PHP bağımlılık yönetimi ile tutarlı geliştirme ortamları."
+            },
+            {
+              "skillName": "Postman & Swagger",
+              "skillDetails": "API testi, dokümantasyon ve istemci üretimi."
+            },
+            {
+              "skillName": "Testing & Automation",
+              "skillDetails": "Cypress, Selenium, Jest, Testing Library, PHPUnit ve JUnit."
             },
             {
               "skillName": "Agile & SOLID",
-              "skillDetails": "Agile metodolojileri, SOLID prensipleri ve clean code uygulamaları."
+              "skillDetails": "Agile metodolojileri, SOLID prensipleri ve temiz kod uygulamaları."
             },
             {
-              "skillName": "Testing",
-              "skillDetails": "JUnit, Jest ve Cypress ile unit ve integration testing."
+              "skillName": "IDE & Bash",
+              "skillDetails": "VS Code, IntelliJ IDEA ve Bash betikleri ile verimli geliştirme."
             }
           ]
         }
@@ -98,16 +126,16 @@
           },
           {
             "key": "Tercih Edilen Rol",
-            "value": "Full Stack Developer (React & Java)"
+            "value": "Full Stack Developer (React & Spring Boot)"
           }
         ]
       },
       "selfIntro": {
         "sectionTitle": "Hakkımda",
         "content": [
-          "Modern, ölçeklenebilir ve kullanıcı dostu web uygulamaları geliştirmeye odaklanmış bir Junior Full Stack Developer'ım. React, JavaScript, Spring Boot ve PostgreSQL gibi teknolojilerle çalışıyor; fikirleri sürdürülebilir ve güvenilir kodlara dönüştürmeyi seviyorum.",
-    "960 saatlik yoğun bir yazılım geliştirme eğitimi sürecinin ardından; RESTful API'lerden responsive kullanıcı arayüzlerine, hatta ESP32 ve Unity ile geliştirdiğim Bluetooth kontrollü bir LED Matrix projesine kadar birçok uçtan uca proje geliştirdim.",
-    "Biyomedikal mühendisliği geçmişim sayesinde analitik düşünme, detaylara dikkat ve temiz kod yazma alışkanlıklarını yazılım geliştirme süreçlerime taşıyorum. Agile takımlarda çalışmayı, öğrenmeyi ve yazılımla değer üretmeyi çok önemsiyorum."
+          "React ve Spring Boot odaklı, üretime hazır projelerde deneyimli bir full-stack geliştiriciyim.",
+          "Temiz, sürdürülebilir kod, kapsamlı test otomasyonu ve modern yazılım mimarilerine (OOP, SOLID, katmanlı, component tabanlı) odaklanırım.",
+          "Teknik kavramları net bir şekilde aktaran, ekip çalışmasına yatkın ve somut iş çıktıları üreten bir takım oyuncusuyum."
         ]
       }
     },
