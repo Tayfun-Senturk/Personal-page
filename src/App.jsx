@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ParticleBackground from './components/ParticleBackground';
 import SmoothScroll from './components/SmoothScroll';
+import MouseFollower from './components/MouseFollower';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Analytics } from '@vercel/analytics/react';
 import "./App.css"
@@ -34,6 +35,7 @@ const App = () => {
   const MainContent = () => (
     <>
       <ParticleBackground />
+      <MouseFollower />
       <div className="bg-gradient-to-br from-white via-gray-50 to-white dark:from-dark-200 dark:via-dark-300 dark:to-dark-200 text-gray-600 dark:text-gray-300 min-h-screen relative z-10">
         <Navbar />
         <div className="page-container">
