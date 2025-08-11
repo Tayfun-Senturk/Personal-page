@@ -11,13 +11,13 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import { Analytics } from '@vercel/analytics/react';
 import "./App.css"
 import { LocalizationProvider } from './contexts/LanguageContext';
+import BackToTop from './components/BackToTop';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [useSmoothScroll, setUseSmoothScroll] = useState(false); // Varsayılan olarak devre dışı
+  const [useSmoothScroll, setUseSmoothScroll] = useState(false);
   
   useEffect(() => {
-    // Sayfa yüklenme animasyonu
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 1000);
@@ -25,29 +25,32 @@ const App = () => {
     return () => clearTimeout(timer);
   }, []);
   
-  // SmoothScroll'u etkinleştirmek için bu fonksiyonu kullanabilirsiniz
   const enableSmoothScroll = () => {
     setUseSmoothScroll(true);
   };
   
-  // Ana içerik bileşeni
   const MainContent = () => (
     <>
       <ParticleBackground />
+      {/* Skip to content */}
+      <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded-md focus:shadow">
+        İçeriğe geç
+      </a>
       <div className="bg-gradient-to-br from-white via-gray-50 to-white dark:from-dark-200 dark:via-dark-300 dark:to-dark-200 text-gray-600 dark:text-gray-300 min-h-screen relative z-10">
         <Navbar />
-        <div className="page-container">
+        <div id="main" className="page-container">
           <Hero />
           <Skills />
           <Profile />
           <Projects />
           <Footer />
         </div>
+        <BackToTop />
         <Analytics />
       </div>
     </>
   );
-  
+
   return (
     <LocalizationProvider>
       <ThemeProvider>
@@ -59,8 +62,7 @@ const App = () => {
           ) : (
             <MainContent />
           )}
-          
-          {/* Sayfa yüklenme animasyonu */}
+          {/* Yüklenme animasyonu */}
           <div className={`fixed inset-0 z-50 flex items-center justify-center bg-white dark:bg-dark-300 transition-opacity duration-700 ${isLoading ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <div className="relative">
               <div className="w-16 h-16 border-4 border-primary-200 dark:border-dark-100 border-t-primary-600 dark:border-t-secondary-400 rounded-full animate-spin"></div>

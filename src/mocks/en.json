@@ -11,7 +11,7 @@
       "fullName": "Tayfun Şentürk",
       "tagline1": "Full Stack Developer",
       "tagline2": "React & Spring Boot Developer",
-      "introText": "Hi, I'm Tayfun. I'm a full-stack developer experienced in building production-ready applications using React and Spring Boot. I focus on clean, maintainable code, test automation, and modern software architectures.",
+      "introText": "Results-oriented full‑stack developer experienced in production-ready projects with strong problem-solving and fast adaptation skills. I build web applications with React, Laravel and Spring Boot focusing on clean, maintainable code, sustainable architectures, and test automation. I care about clear cross-team technical communication, solid data modeling, and high test coverage across layers.",
       "workWithMe": "Hire me",
       "codeRepo": "Github",
       "socialProfile": "LinkedIn",
@@ -27,82 +27,34 @@
           "title": "Frontend",
           "icon": "🎨",
           "skills": [
-            {
-              "skillName": "React & Redux",
-              "skillDetails": "Modern web application development, state management, and component-based architecture."
-            },
-            {
-              "skillName": "JavaScript (ES6+)",
-              "skillDetails": "Modern JavaScript features, async/await, DOM manipulation, and API integration."
-            },
-            {
-              "skillName": "jQuery",
-              "skillDetails": "DOM manipulation, event handling, and legacy compatibility."
-            },
-            {
-              "skillName": "HTML5 & CSS3",
-              "skillDetails": "Semantic markup, responsive layouts, and modern styling techniques."
-            },
-            {
-              "skillName": "Tailwind CSS",
-              "skillDetails": "Utility-first framework for rapid, responsive UI development."
-            }
+            { "skillName": "React & Redux", "skillDetails": "Modern web application development, state management, and component-based architecture." },
+            { "skillName": "JavaScript (ES6+)", "skillDetails": "Modern JavaScript features, async/await, DOM manipulation, and API integration." },
+            { "skillName": "jQuery", "skillDetails": "DOM manipulation, event handling, and legacy compatibility." },
+            { "skillName": "HTML5 & CSS3", "skillDetails": "Semantic markup, responsive layouts, and modern styling techniques." },
+            { "skillName": "Tailwind CSS", "skillDetails": "Utility-first framework for rapid, responsive UI development." }
           ]
         },
         "backend": {
           "title": "Backend",
           "icon": "⚙️",
           "skills": [
-            {
-              "skillName": "Java & Spring Boot",
-              "skillDetails": "RESTful API development, layered architecture, and microservice patterns."
-            },
-            {
-              "skillName": "PHP & Laravel",
-              "skillDetails": "MVC architecture, Eloquent ORM, and RESTful APIs with Laravel 12."
-            },
-            {
-              "skillName": "PostgreSQL & JPA",
-              "skillDetails": "Relational database design, performance tuning, and ORM usage."
-            },
-            {
-              "skillName": "MySQL",
-              "skillDetails": "Schema design, indexing, and query optimisation for high performance."
-            },
-            {
-              "skillName": "JWT & Spring Security",
-              "skillDetails": "Secure authentication and authorization mechanisms."
-            }
+            { "skillName": "Java & Spring Boot", "skillDetails": "RESTful API development, layered architecture, and microservice patterns." },
+            { "skillName": "PHP & Laravel", "skillDetails": "MVC architecture, Eloquent ORM, and RESTful APIs with Laravel 12." },
+            { "skillName": "PostgreSQL & JPA", "skillDetails": "Relational database design, performance tuning, and ORM usage." },
+            { "skillName": "MySQL", "skillDetails": "Schema design, indexing, and query optimisation for high performance." },
+            { "skillName": "JWT & Spring Security", "skillDetails": "Secure authentication and authorization mechanisms." }
           ]
         },
         "tools": {
           "title": "Tools & Process",
           "icon": "🛠️",
           "skills": [
-            {
-              "skillName": "Git & GitHub",
-              "skillDetails": "Version control, branch management, and collaborative workflows."
-            },
-            {
-              "skillName": "Docker & Composer",
-              "skillDetails": "Containerization and PHP dependency management for consistent environments."
-            },
-            {
-              "skillName": "Postman & Swagger",
-              "skillDetails": "API testing, documentation, and client generation."
-            },
-            {
-              "skillName": "Testing & Automation",
-              "skillDetails": "Cypress, Selenium, Jest, Testing Library, PHPUnit, and JUnit."
-            },
-            {
-              "skillName": "Agile & SOLID",
-              "skillDetails": "Agile methodologies, SOLID principles, and clean code practices."
-            },
-            {
-              "skillName": "IDE & Bash",
-              "skillDetails": "Efficient development with VS Code, IntelliJ IDEA, and Bash scripting."
-            }
+            { "skillName": "Git & GitHub", "skillDetails": "Version control, branch management, and collaborative workflows." },
+            { "skillName": "Docker & Composer", "skillDetails": "Containerization and PHP dependency management for consistent environments." },
+            { "skillName": "Postman & Swagger", "skillDetails": "API testing, documentation, and client generation." },
+            { "skillName": "Testing & Automation", "skillDetails": "Cypress, Selenium, Jest, Testing Library, PHPUnit, and JUnit." },
+            { "skillName": "Agile & SOLID", "skillDetails": "Agile methodologies, SOLID principles, and clean code practices." },
+            { "skillName": "IDE & Bash", "skillDetails": "Efficient development with VS Code, IntelliJ IDEA, and Bash scripting." }
           ]
         }
       }
@@ -112,30 +64,23 @@
       "basicInfo": {
         "infoTitle": "Basic Information",
         "infoItems": [
-          {
-            "key": "Date of Birth",
-            "value": "29.07.1999"
-          },
-          {
-            "key": "City of Residence",
-            "value": "Bursa"
-          },
-          {
-            "key": "Educational Background",
-            "value": "Kocaeli University, Biomedical Engineering, 2024"
-          },
-          {
-            "key": "Preferred Role",
-            "value": "Full Stack Developer (React & Spring Boot)"
-          }
+          { "key": "Date of Birth", "value": "29.07.1999" },
+          { "key": "City of Residence", "value": "Bursa" },
+          { "key": "Educational Background", "value": "Kocaeli University, Biomedical Engineering, 2024" },
+          { "key": "MSc", "value": "Sakarya University, MSc in Information Technologies (Software Engineering Focus), 2025–Present" },
+          { "key": "Preferred Role", "value": "Full Stack Developer (React & Spring Boot)" },
+          { "key": "English Level", "value": "C1 (EF SET)" },
+          { "key": "Citizenship / Work Eligibility", "value": "EU Citizen (Bulgaria) — Eligible to work across Europe" }
         ]
       },
       "selfIntro": {
         "sectionTitle": "About Me",
         "content": [
-          "Full-stack developer experienced in production-ready projects, specialising in React and Spring Boot.",
-          "Focused on clean, maintainable code, comprehensive test automation, and modern software architectures (OOP, SOLID, layered, component-based).",
-          "Collaborative team player who communicates technical concepts effectively and delivers tangible business value."
+          "Full‑stack developer experienced in production‑grade projects with React, Laravel and Spring Boot.",
+          "Focused on clean, maintainable code, comprehensive test automation, and modern software architectures (OOP, SOLID, layered, component‑based).",
+          "Product‑oriented mindset; I optimise performance and UX against measurable metrics (Core Web Vitals, conversion) targeting 95+ Lighthouse scores.",
+          "Testing approach: unit/integration with Jest & React Testing Library; end‑to‑end with Cypress.",
+          "CI/CD: fast, reliable releases with GitHub Actions & Vercel, disciplined code reviews and branching."
         ]
       }
     },
@@ -181,6 +126,16 @@
           "repoLink": "https://github.com/Tayfun-Senturk/led-matrix-bluetooth-display",
           "siteLabel": "Watch Demo",
           "siteLink": "https://vimeo.com/1027008321"
+        },
+        {
+          "projectTitle": "Todo Application",
+          "imageLink": "p5.png",
+          "projectDesc": "Priority/category‑based task management with drag‑and‑drop, filtering/search, and statistics panels. Frontend in React & Tailwind, backend in Laravel 12 & MySQL.",
+          "tech": ["laravel 12", "mysql", "react", "tailwind"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/todo-project",
+          "siteLabel": "",
+          "siteLink": ""
         }
       ]
     },
@@ -199,7 +154,5 @@
       }
     },
     "lang":"English"
-
-    
   }
   

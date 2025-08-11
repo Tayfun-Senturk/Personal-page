@@ -6,12 +6,12 @@ const ParticleBackground = () => {
   const { darkMode } = useTheme();
   
   useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
     let animationFrameId;
     let particles = [];
     
-    // Canvas boyutunu ayarla
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -19,8 +19,14 @@ const ParticleBackground = () => {
     
     window.addEventListener('resize', handleResize);
     handleResize();
+
+    if (prefersReducedMotion) {
+      // Hareketi azalt: sadece yumuşak bir arkaplan rengi uygula
+      ctx.fillStyle = darkMode === 'dark' ? 'rgba(148,116,255,0.06)' : 'rgba(59,130,246,0.06)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      return () => window.removeEventListener('resize', handleResize);
+    }
     
-    // Parçacık sınıfı
     class Particle {
       constructor(x, y) {
         this.x = x;
@@ -36,15 +42,8 @@ const ParticleBackground = () => {
       update() {
         this.x += this.speedX;
         this.y += this.speedY;
-        
-        // Sınırları kontrol et
-        if (this.x > canvas.width || this.x < 0) {
-          this.speedX = -this.speedX;
-        }
-        
-        if (this.y > canvas.height || this.y < 0) {
-          this.speedY = -this.speedY;
-        }
+        if (this.x > canvas.width || this.x < 0) this.speedX = -this.speedX;
+        if (this.y > canvas.height || this.y < 0) this.speedY = -this.speedY;
       }
       
       draw() {
@@ -55,11 +54,11 @@ const ParticleBackground = () => {
       }
     }
     
-    // Parçacıkları oluştur
     const createParticles = () => {
-      const particleCount = Math.min(window.innerWidth / 10, 100); // Ekran genişliğine göre parçacık sayısı
+      const isMobile = window.innerWidth < 768;
+      const baseCount = Math.min(window.innerWidth / 12, 100);
+      const particleCount = Math.floor(isMobile ? Math.min(baseCount, 45) : baseCount);
       particles = [];
-      
       for (let i = 0; i < particleCount; i++) {
         const x = Math.random() * canvas.width;
         const y = Math.random() * canvas.height;
@@ -67,22 +66,19 @@ const ParticleBackground = () => {
       }
     };
     
-    // Parçacıklar arasında çizgiler çiz
     const connectParticles = () => {
       const maxDistance = 150;
-      
       for (let i = 0; i < particles.length; i++) {
         for (let j = i; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
           const dy = particles[i].y - particles[j].y;
           const distance = Math.sqrt(dx * dx + dy * dy);
-          
           if (distance < maxDistance) {
             const opacity = 1 - distance / maxDistance;
             ctx.beginPath();
             ctx.strokeStyle = darkMode === 'dark' 
-              ? `rgba(148, 116, 255, ${opacity * 0.15})` 
-              : `rgba(59, 130, 246, ${opacity * 0.15})`;
+              ? `rgba(148, 116, 255, ${opacity * 0.12})` 
+              : `rgba(59, 130, 246, ${opacity * 0.12})`;
             ctx.lineWidth = 0.5;
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
@@ -92,15 +88,12 @@ const ParticleBackground = () => {
       }
     };
     
-    // Animasyon döngüsü
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      
       for (const particle of particles) {
         particle.update();
         particle.draw();
       }
-      
       connectParticles();
       animationFrameId = requestAnimationFrame(animate);
     };
@@ -108,7 +101,6 @@ const ParticleBackground = () => {
     createParticles();
     animate();
     
-    // Temizleme
     return () => {
       window.removeEventListener('resize', handleResize);
       cancelAnimationFrame(animationFrameId);

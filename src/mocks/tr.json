@@ -11,7 +11,7 @@
       "fullName": "Tayfun Şentürk",
       "tagline1": "Full Stack Geliştirici",
       "tagline2": "React & Spring Boot Geliştiricisi",
-      "introText": "Merhaba, ben Tayfun. React ve Spring Boot kullanarak üretime hazır web uygulamaları geliştiren, kod kalitesine, sürdürülebilirliğe ve test otomasyonuna odaklı bir full-stack geliştiriciyim.",
+      "introText": "Üretime hazır projelerde deneyimli, problem çözme ve hızlı adaptasyon becerileri güçlü bir full‑stack geliştiriciyim. React, Laravel ve Spring Boot ile; sürdürülebilir mimari, temiz kod ve test otomasyonu odaklı web uygulamaları geliştiriyorum. Ekipler arası teknik iletişimde netlik, veri modelleme, test kapsamının artırılması ve modern yazılım mimarileri (OOP, SOLID, katmanlı, component tabanlı) önceliklerimdir.",
       "workWithMe": "Bana Ulaş",
       "codeRepo": "Github",
       "socialProfile": "LinkedIn",
@@ -125,17 +125,31 @@
             "value": "Kocaeli Üniversitesi, Biyomedikal Mühendisliği, 2024"
           },
           {
+            "key": "Yüksek Lisans",
+            "value": "Sakarya Üniversitesi, Bilişim Teknolojileri (Yazılım Mühendisliği Odaklı), 2025–Devam"
+          },
+          {
             "key": "Tercih Edilen Rol",
             "value": "Full Stack Developer (React & Spring Boot)"
+          },
+          {
+            "key": "İngilizce Seviyesi",
+            "value": "C1 (EF SET)"
+          },
+          {
+            "key": "Uyruk / Çalışma Uygunluğu",
+            "value": "AB Vatandaşı (Bulgaristan) — Avrupa genelinde çalışma uygunluğu"
           }
         ]
       },
       "selfIntro": {
         "sectionTitle": "Hakkımda",
         "content": [
-          "React ve Spring Boot odaklı, üretime hazır projelerde deneyimli bir full-stack geliştiriciyim.",
+          "React, Laravel ve Spring Boot odaklı, üretime hazır projelerde deneyimli bir full‑stack geliştiriciyim.",
           "Temiz, sürdürülebilir kod, kapsamlı test otomasyonu ve modern yazılım mimarilerine (OOP, SOLID, katmanlı, component tabanlı) odaklanırım.",
-          "Teknik kavramları net bir şekilde aktaran, ekip çalışmasına yatkın ve somut iş çıktıları üreten bir takım oyuncusuyum."
+          "Ürün odaklı çalışırım; ölçülebilir metrikler (Core Web Vitals, dönüşüm oranları) ile performans ve kullanılabilirliği 95+ Lighthouse skorlarına hedeflerim.",
+          "Test yaklaşımım: Jest/React Testing Library ile birim/entegrasyon, Cypress ile uçtan uca testler.",
+          "CI/CD: GitHub Actions ve Vercel ile hızlı ve güvenilir sürümleme, disiplinli code review ve branch stratejileri."
         ]
       }
     },
@@ -181,6 +195,16 @@
           "repoLink": "https://github.com/Tayfun-Senturk/led-matrix-bluetooth-display",
           "siteLabel": "Demo İzle",
           "siteLink": "https://vimeo.com/1027008321"
+        },
+        {
+          "projectTitle": "Todo Uygulaması",
+          "imageLink": "p5.png",
+          "projectDesc": "Kategori ve öncelik bazlı görev yönetimi; sürükle-bırak, filtreleme/arama ve istatistik panelleri. Frontend React & Tailwind, backend Laravel 12 & MySQL.",
+          "tech": ["laravel 12", "mysql", "react", "tailwind"],
+          "repo": "GitHub",
+          "repoLink": "https://github.com/Tayfun-Senturk/todo-project",
+          "siteLabel": "",
+          "siteLink": ""
         }
       ]
     },

@@ -28,6 +28,11 @@ export const LocalizationProvider = ({ children }) => {
     retrieveData();
   }, [currentLanguage]);
 
+  useEffect(() => {
+    document.documentElement.lang = currentLanguage;
+    document.documentElement.dir = 'ltr';
+  }, [currentLanguage]);
+
   const toggleLanguage = () => {
     setCurrentLanguage((prevLanguage) => (prevLanguage === 'en' ? 'tr' : 'en'));
   };

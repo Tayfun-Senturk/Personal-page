@@ -10,6 +10,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
   const [indicatorStyle, setIndicatorStyle] = useState({});
+  const [scrollPercent, setScrollPercent] = useState(0);
   const navRef = useRef(null);
   const activeButtonRef = useRef(null);
 
@@ -32,9 +33,12 @@ const Navbar = () => {
       });
       
       setActiveSection(currentSection);
+      const percent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+      setScrollPercent(Math.max(0, Math.min(100, percent)));
     };
     
     window.addEventListener('scroll', handleScroll);
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -167,6 +171,8 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden p-2 text-gray-600 dark:text-gray-300 hover:text-primary-700 dark:hover:text-secondary-300 transition-all duration-300 hover:scale-110"
               aria-label="Toggle menu"
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               <div className="w-6 h-6 relative">
                 <span className={`absolute h-0.5 w-full bg-current transform transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 top-3' : 'top-1'}`}></span>
@@ -177,7 +183,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className={`md:hidden transition-all duration-500 ease-in-out ${
+        <div id="mobile-menu" className={`md:hidden transition-all duration-500 ease-in-out ${
           isMobileMenuOpen ? 'max-h-64 opacity-100 mt-4' : 'max-h-0 opacity-0 mt-0'
         } overflow-hidden`}>
           <div className="py-4 space-y-4 bg-white/50 dark:bg-dark-100/50 backdrop-blur-sm rounded-xl px-4">
@@ -224,10 +230,7 @@ const Navbar = () => {
       <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gray-200/30 dark:bg-gray-700/30">
         <div 
           className="h-full bg-gradient-to-r from-primary-500 to-secondary-500"
-          style={{ 
-            width: `${(window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100}%`,
-            transition: 'width 0.1s'
-          }}
+          style={{ width: `${scrollPercent}%`, transition: 'width 0.1s' }}
         ></div>
       </div>
     </nav>
